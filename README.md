@@ -1,6 +1,6 @@
 # JavaScript Grundlagen - Getting Started
 
-Dieses Repository ist die Basis für die Kurse auf https://www.codesurfer.io/kurse.
+Dieses Repository ist die Basis für die Kurse auf https://www.codesurfer.io/schulungen.
 Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
 
 ### Voraussetzungen
