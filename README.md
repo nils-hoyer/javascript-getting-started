@@ -1,6 +1,6 @@
 # JavaScript Grundlagen - Getting Started
 
-Dieses Repository ist die Basis für die Kurse auf https://www.codesurfer.io/schulungen.
+Dieses Repository ist die Basis für die Schulungen auf https://www.codesurfer.io/schulungen.
 Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
 
 ### Voraussetzungen
@@ -25,8 +25,9 @@ Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
    - Lade das Projekt [**hier herunterladen**](https://github.com/nils-hoyer/testautomation-getting-started/archive/refs/heads/main.zip) oder nutze Git: `git clone https://github.com/nils-hoyer/testautomation-getting-started.git`
 
 5. **Projekt in Visual Studio Code öffnen**
+   - Entpacke die heruntergeladene ZIP-Datei
    - Öffne Visual Studio Code
-   - Datei > Ordner öffnen... und wähle den heruntergeladenen Ordner
+   - Datei > Ordner öffnen... und wähle den entpackten Ordner
 
 ### Setup testen
 
