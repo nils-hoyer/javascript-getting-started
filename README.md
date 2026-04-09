@@ -32,11 +32,11 @@ Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
 ### Setup testen
 
 6. **Erste Datei ausführen**
-   - Öffne die Datei `Kapitel/hallo_welt.js`
+   - Öffne die Datei `kapitel/01_setup.js`
    - Klicke rechts oben auf den **▶ Play-Button**.
 
    ![Play-Button](docs/code_runner_play_button.png)
 
-Wenn du `Hallo Welt!` im Terminal siehst, bist du startklar für das Seminar!
+Wenn du `Test erfolgreich!` im Terminal siehst, bist du startklar für die Schulung!
 
 Happy Testing! 🚀
