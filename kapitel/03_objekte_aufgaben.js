@@ -23,4 +23,3 @@
 
 // Aufgabe 5
 // Entferne eine Eigenschaft aus dem Objekt. Gib das Objekt danach mit console.log() aus.
-
