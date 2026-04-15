@@ -1,4 +1,4 @@
-// Strings – Lösungen
+// Bonus: Strings – Lösungen
 
 const user = {
   id: 1,
@@ -19,3 +19,6 @@ console.log(cleanEmail.includes("@example.com"));
 
 // Aufgabe 4
 console.log(user.name.toLowerCase());
+
+// Aufgabe 5
+console.log(cleanEmail.endsWith("@example.com"));

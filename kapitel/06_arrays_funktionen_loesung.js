@@ -21,3 +21,9 @@ console.log(found);
 // Aufgabe 4
 const emails = users.map((u) => u.email);
 console.log(emails);
+
+// Aufgabe 5
+const loggedOutNames = users
+  .filter((u) => !u.isLoggedIn)
+  .map((u) => u.name);
+console.log(loggedOutNames);

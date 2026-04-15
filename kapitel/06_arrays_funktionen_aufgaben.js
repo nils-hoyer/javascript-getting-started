@@ -19,3 +19,10 @@
 // Aufgabe 4
 // Erzeuge mit map() ein neues Array, das nur die E-Mail-Adressen aller User enthält.
 // Gib das Ergebnis mit console.log() aus.
+
+
+
+// Aufgabe 5
+// Filtere zuerst alle User heraus, die nicht eingeloggt sind.
+// Erzeuge danach mit map() ein neues Array, das nur deren Namen enthält.
+// Gib das Ergebnis mit console.log() aus.
