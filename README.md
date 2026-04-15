@@ -9,8 +9,8 @@ Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
    - Lade Visual Studio Code [**hier herunterladen**](https://code.visualstudio.com/download) und installiere es auf deinem System
 
 2. **Node.js installieren**
-   - Benötigt: Node.js Version 20 oder neuer
-   - Lade Node.js [**hier herunterladen**](https://nodejs.org/en/download) oder nutze NVM: `nvm install 20`
+   - Benötigt: Node.js Version 22 oder neuer
+   - Lade Node.js [**hier herunterladen**](https://nodejs.org/en/download) oder nutze NVM: `nvm install 22`
 
 3. **Code Runner Extension installieren**
    - Öffne Visual Studio Code
@@ -22,7 +22,7 @@ Folge dieser Anleitung, um deine JavaScript-Umgebung einzurichten:
 ### Projekt Setup
 
 4. **Dateien herunterladen**
-   - Lade das Projekt [**hier herunterladen**](https://github.com/nils-hoyer/testautomation-getting-started/archive/refs/heads/main.zip) oder nutze Git: `git clone https://github.com/nils-hoyer/testautomation-getting-started.git`
+   - Lade das Projekt [**hier herunterladen**](https://github.com/nils-hoyer/javascript-getting-started/archive/refs/heads/main.zip) oder nutze Git: `git clone https://github.com/nils-hoyer/javascript-getting-started.git`
 
 5. **Projekt in Visual Studio Code öffnen**
    - Entpacke die heruntergeladene ZIP-Datei
