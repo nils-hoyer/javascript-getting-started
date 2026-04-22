@@ -10,17 +10,6 @@ console.log(greet("Max")); // "Hallo, Max!"
 
 
 // Aufgabe 2
-function getFullName(user) {
-    return user.firstName + " " + user.lastName;
-}
-
-const formatUser = getFullName;
-
-const user = { firstName: "Anna", lastName: "Müller" };
-console.log(formatUser(user)); // "Anna Müller"
-
-
-// Aufgabe 3
 const greetArrow = (name) => {
     return "Hallo, " + name + "!";
 };
@@ -28,13 +17,13 @@ const greetArrow = (name) => {
 console.log(greetArrow("Max")); // "Hallo, Max!"
 
 
-// Aufgabe 4
+// Aufgabe 3
 const greetShort = (name) => "Hallo, " + name + "!";
 
 console.log(greetShort("Max")); // "Hallo, Max!"
 
 
-// Aufgabe 5
+// Aufgabe 4
 function doublePrice(number) {
     return number * 2;
 }
@@ -44,3 +33,7 @@ function calculate(number, operation) {
 }
 
 console.log(calculate(5, doublePrice)); // 10
+
+
+// Aufgabe 5
+console.log(calculate(5, (number) => number * 2)); // 10
