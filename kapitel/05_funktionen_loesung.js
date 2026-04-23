@@ -1,18 +1,17 @@
 // Funktionen – Lösungen
 
+const anna = { id: 1, name: "Anna", email: "anna@example.com", isLoggedIn: true };
+const ben  = { id: 2, name: "Ben",  email: "ben@example.com",  isLoggedIn: false };
+
 // Aufgabe 1
 function greetUser(name) {
   return "Hallo, " + name + "!";
 }
 
-console.log(greetUser("Anna"));
-console.log(greetUser("Ben"));
+console.log(greetUser(anna.name));
+console.log(greetUser(ben.name));
 
-// Aufgabe 2
-const anna = { id: 1, name: "Anna", email: "anna@example.com", isLoggedIn: true };
-const ben  = { id: 2, name: "Ben",  email: "ben@example.com",  isLoggedIn: false };
-
-function isLoggedIn(user) {
+// Aufgabe 2function isLoggedIn(user) {
   return user.isLoggedIn;
 }
 
@@ -44,16 +43,15 @@ const products = [
   { id: 3, name: "Backpack", price: 79.99, inStock: true  },
 ];
 
-function isAvailable(product) {
-  return product.inStock;
+function calculateEndPrice(product) {
+  return product.price + 4.99;
 }
 
 function printProduct(product) {
   console.log(product.name);
-  console.log(product.price);
-  console.log(isAvailable(product));
+  console.log(calculateEndPrice(product));
 }
 
-printProduct(products[0]); // "Sneaker", 49.99, true
-printProduct(products[1]); // "T-Shirt", 19.99, false
-printProduct(products[2]); // "Backpack", 79.99, true
+printProduct(products[0]); // "Sneaker", 54.98
+printProduct(products[1]); // "T-Shirt", 24.98
+printProduct(products[2]); // "Backpack", 84.98
