@@ -2,7 +2,9 @@
 
 // Aufgabe 1
 // Schreibe eine Funktion greetUser(name), die "Hallo, [userName]!" zurückgibt.
-// Rufe zwei verschiedenen Namen auf und gib die Ergebnisse mit console.log() aus.
+// Rufe sie für anna und ben auf und gib die Ergebnisse mit console.log() aus.
+//
+// const anna = { id: 1, name: "Anna", email: "anna@example.com", isLoggedIn: true };
 
 
 
@@ -25,8 +27,9 @@
 
 
 // Aufgabe 5
-// Schreibe eine Funktion printProduct(product), die Name, Preis und Verfügbarkeit
-// eines Produkts ausgibt. Außerdem schreibe eine Hilfsfunktion isAvailable(product).
+// Schreibe eine Funktion printProduct(product), die Name, Preis und Endpreis eines Produkts ausgibt.
+// Schreibe dafür eine Hilfsfunktion calculateEndPrice(product), die den Produktpreis
+// plus 4.99 Versandkosten zurückgibt, und nutze sie in printProduct().
 // Rufe printProduct für alle drei Produkte auf:
 //
 // const products = [
